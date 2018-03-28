@@ -1,0 +1,32 @@
+{
+  "name": "clothia-testpage",
+  "version": "1.0.0",
+  "description": "Test page for Clothia company",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SkyAx",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.2",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^3.2.1",
+    "imagemin-pngquant": "^5.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglifyjs": "^0.6.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "node-json-db": "^0.7.5"
+  }
+}

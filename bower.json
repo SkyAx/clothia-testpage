@@ -1,0 +1,21 @@
+{
+  "name": "clothia-testpage",
+  "description": "Test page for Clothia company",
+  "main": "index.js",
+  "authors": [
+    "SkyAx"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
