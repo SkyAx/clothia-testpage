@@ -10,3 +10,5 @@ This page simulates the functionality of a typical online store page.
 2. Run `npm install` for installations packages
 3. Run `npm start`
 4. For _devMode_ run command `gulp`
+
+Server starting at `http://localhost:8080`
