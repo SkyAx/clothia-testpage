@@ -7,7 +7,7 @@ let db = new JsonDB("db", true, false);
 let app = express();
 db.push('/basketProducts', []);
 
-app.listen(8080);
+app.listen(3002);
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({
     extended: true
